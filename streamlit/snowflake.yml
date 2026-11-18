@@ -1,0 +1,14 @@
+definition_version: 2
+entities:
+  oee_command_center:
+    type: streamlit
+    identifier:
+      name: OEE_COMMAND_CENTER
+      database: OEE_CC
+      schema: APP
+    query_warehouse: OEE_WH
+    main_file: streamlit_app.py
+    title: OEE Command Center
+    artifacts:
+      - streamlit_app.py
+      - environment.yml
